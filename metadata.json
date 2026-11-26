@@ -1,0 +1,6 @@
+{
+  "name": "Muse Tool SuperApp",
+  "description": "Siêu ứng dụng quản lý AI Model, tự động tính chi phí theo ngày/tuần/tháng/năm/model, theo dõi Free Credits & Outstanding Balance, cập nhật OTA qua Wi-Fi và đồng bộ Profile đám mây.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

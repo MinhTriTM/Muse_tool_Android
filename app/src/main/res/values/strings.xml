@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">Muse Tool SuperApp</string>
+    <string name="nav_dashboard">Tổng quan</string>
+    <string name="nav_billing">Tính tiền</string>
+    <string name="nav_studio">AI Studio</string>
+    <string name="nav_ota">Cập nhật OTA</string>
+    <string name="nav_profile">Hồ sơ</string>
+    <string name="free_credits_title">Free Credits In Use</string>
+    <string name="outstanding_balance_title">Outstanding Balance</string>
+    <string name="period_day">Theo Ngày</string>
+    <string name="period_week">Theo Tuần</string>
+    <string name="period_month">Theo Tháng</string>
+    <string name="period_year">Theo Năm</string>
+    <string name="period_all">Tổng Cộng</string>
+    <string name="firebase_ai_notice">Lưu ý: Tính năng AI hiện đang dùng phản hồi mẫu (Placeholder) vì thiết lập Firebase đã bị từ chối. Bật Firebase AI Logic để kết nối Gemini trực tiếp.</string>
+    <string name="ota_wifi_ready">Đã kết nối Wi-Fi • Sẵn sàng cập nhật OTA không cần tải APK</string>
+    <string name="ota_session_preserved">Cơ chế Snapshot giữ nguyên Profile, Token phiên đăng nhập &amp; dữ liệu sau khi nâng cấp.</string>
+    <string name="note20_widget_desc">Widget One UI Samsung Galaxy Note 20 Ultra 5G VN (SM-N986B/DS): Theo dõi Free Credits, Outstanding Balance, Chi phí Ngày/Tuần/Tháng/Năm &amp; Wi-Fi OTA</string>
+    <string name="shortcut_balance_short">Kiểm tra Số dư</string>
+    <string name="shortcut_balance_long">Xem Free Credits &amp; Dư nợ</string>
+    <string name="shortcut_last_model_short">Model dùng gần nhất</string>
+    <string name="shortcut_last_model_long">Mở AI Model dùng gần nhất</string>
+    <string name="shortcut_quick_log_short">Ghi nhận Phiên phí</string>
+    <string name="shortcut_quick_log_long">Tính tiền nhanh phiên AI mới</string>
+    <string name="shortcut_ota_sync_short">Cập nhật Wi-Fi OTA</string>
+    <string name="shortcut_ota_sync_long">Quét bản cập nhật OTA &amp; Hồ sơ</string>
+    <string name="shortcut_disabled_msg">Lối tắt này hiện không khả dụng</string>
+</resources>

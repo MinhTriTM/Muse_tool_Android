@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shortcuts xmlns:android="http://schemas.android.com/apk/res/android">
+    <shortcut
+        android:shortcutId="shortcut_check_balance"
+        android:enabled="true"
+        android:icon="@drawable/ic_shortcut_balance"
+        android:shortcutShortLabel="@string/shortcut_balance_short"
+        android:shortcutLongLabel="@string/shortcut_balance_long"
+        android:shortcutDisabledMessage="@string/shortcut_disabled_msg">
+        <intent
+            android:action="com.musetool.superapp.SHORTCUT_CHECK_BALANCE"
+            android:targetPackage="com.musetool.superapp"
+            android:targetClass="com.musetool.superapp.MainActivity" />
+        <categories android:name="android.shortcut.conversation" />
+    </shortcut>
+
+    <shortcut
+        android:shortcutId="shortcut_last_ai_model"
+        android:enabled="true"
+        android:icon="@drawable/ic_shortcut_ai_model"
+        android:shortcutShortLabel="@string/shortcut_last_model_short"
+        android:shortcutLongLabel="@string/shortcut_last_model_long"
+        android:shortcutDisabledMessage="@string/shortcut_disabled_msg">
+        <intent
+            android:action="com.musetool.superapp.SHORTCUT_OPEN_LAST_MODEL"
+            android:targetPackage="com.musetool.superapp"
+            android:targetClass="com.musetool.superapp.MainActivity" />
+        <categories android:name="android.shortcut.conversation" />
+    </shortcut>
+
+    <shortcut
+        android:shortcutId="shortcut_quick_log_cost"
+        android:enabled="true"
+        android:icon="@drawable/ic_shortcut_quick_log"
+        android:shortcutShortLabel="@string/shortcut_quick_log_short"
+        android:shortcutLongLabel="@string/shortcut_quick_log_long"
+        android:shortcutDisabledMessage="@string/shortcut_disabled_msg">
+        <intent
+            android:action="com.musetool.superapp.SHORTCUT_QUICK_LOG_USAGE"
+            android:targetPackage="com.musetool.superapp"
+            android:targetClass="com.musetool.superapp.MainActivity" />
+        <categories android:name="android.shortcut.conversation" />
+    </shortcut>
+
+    <shortcut
+        android:shortcutId="shortcut_wifi_ota_sync"
+        android:enabled="true"
+        android:icon="@drawable/ic_shortcut_ota_sync"
+        android:shortcutShortLabel="@string/shortcut_ota_sync_short"
+        android:shortcutLongLabel="@string/shortcut_ota_sync_long"
+        android:shortcutDisabledMessage="@string/shortcut_disabled_msg">
+        <intent
+            android:action="com.musetool.superapp.SHORTCUT_WIFI_OTA_SYNC"
+            android:targetPackage="com.musetool.superapp"
+            android:targetClass="com.musetool.superapp.MainActivity" />
+        <categories android:name="android.shortcut.conversation" />
+    </shortcut>
+</shortcuts>
